@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+    /* color: rgb(76, 74, 74); */
+
+}
+.border{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: antiquewhite; */
+  }
+
+img{
+    width: 50px;
+    border-radius: 19px;
+}
+.col{
+    margin-top: 10px;
+     width: 50%;
+     height: 560px;
+     border-radius: 12px;
+     box-shadow:  8px 5px 19px #555;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 22px;
+        margin: 15px;
+        color: rgb(76, 74, 74);
+        font-size: 14px;
+        font-weight: bold;
+    background-color: white;
+}
+
+.tot{
+    color:aliceblue;
+    
+}
+.color{
+
+    background-image: linear-gradient(to right,rgb(242, 221, 193),rgba(255, 0, 0, 0.617));
+    padding: 15px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    font-size: small;
+}
+.mob{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+.tabMain{
+    display: flex;
+    justify-content: space-between;
+}
+.tabMain input{
+    width:56px;
+}
+button{
+    margin-left:150px ;
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+.tab{
+    display: flex;
+    justify-content: space-between;
+}
+
+th{ 
+    color: aliceblue;
+    padding-right: 50px;
+    margin-bottom:10px ;
+}
